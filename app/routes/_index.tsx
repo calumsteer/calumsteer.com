@@ -86,7 +86,7 @@ export default function Home() {
               <div className="relative mb-6">
                 <div className="w-48 h-48 rounded-full p-0.5 bg-white">
                   <img 
-                  src="/calum-profile.jpg" 
+                  src="/LinkedInprofilepicCS.jpeg" 
                   alt="Calum Steer" 
                   className="w-full h-full rounded-full object-cover"
                   />
@@ -112,13 +112,13 @@ export default function Home() {
               </h1>
                 <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-8 md:mb-0">
                   Programme Officer working on environmental conservation and sustainable livelihoods in Madagascar.
-                  MPhil in Development Studies from Cambridge University.
-                  First-class Geography degree from Durham University.&nbsp;
+                  MPhil in Development Studies from the University of Cambridge (top quarter of cohort).
+                  First-class Geography degree from Durham University. Skilled in research, AI, and automation (n8n) for sustainability-focused innovation.&nbsp;
                     Passionate about{" "}
                     <span className="bg-orange-400 rounded px-1 font-bold" style={{ lineHeight: "1.5", paddingTop: "0.1em", paddingBottom: "0.1em" }}>
                       sustainable development
                     </span>
-                    {" "}and social justice.
+                    {" "}and ocean protection.
                 </p>
             </div>
           </div>
@@ -131,21 +131,22 @@ export default function Home() {
               <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>
                             <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  I'm a Programme Officer for <strong>environmental conservation and sustainable livelihoods</strong> at SEED Madagascar. 
-                  I work with small-scale fishing communities in southeast Madagascar, supporting them to manage their marine environment 
-                  through <strong>Locally Managed Marine Areas</strong>, promoting both prosperity and sustainability.
+                  I’m a University of Cambridge graduate with an <strong>MPhil in Development Economics</strong> and experience in sustainable development
+                  and emergency response across Tanzania, Jordan, and Madagascar. I’m passionate about advancing sustainable growth by combining
+                  operational efficiency, project management, and research to help innovative organisations—particularly in ocean protection—maximise
+                  their impact.
                 </p>
                 <p>
-                  With an <strong>MPhil in Development Studies from Cambridge University</strong> and a <strong>first-class Geography degree 
-                  from Durham University</strong>, I bring academic rigor to real-world development challenges. My experience spans the relief 
-                  and development sectors, including work with <strong>UNRWA</strong> supporting Gaza emergency response and gender-based violence prevention, 
-                  and as a caseworker helping asylum-seekers in the UK.
+                  With an <strong>MPhil from Cambridge</strong>, where I graduated in the top quarter of my cohort, and a <strong>First-Class Geography
+                  degree from Durham University</strong>, I bring academic rigour to practical, high-pressure contexts. My experience includes
+                  supporting <strong>UNRWA</strong>’s Gaza emergency response and gender-based violence prevention, casework with asylum-seekers in the UK,
+                  and co-designing a three-year conservation and livelihoods project at <strong>SEED Madagascar</strong> that secured donor funding.
                 </p>
                 <p>
-                  I'm passionate about <strong>sustainable development, migration, investigative journalism, and compassion in politics</strong>. 
-                  I believe in the interconnected nature of global challenges—from corporate accountability abroad to migration policy at home—and 
-                  the importance of international cooperation in addressing them. Through my work, I strive to support communities in building 
-                  sustainable, dignified livelihoods while preserving the environment for future generations.
+                  I believe today’s global challenges—from corporate accountability to environmental management—are deeply interconnected and
+                  demand cross-sector collaboration. Looking ahead, I aim to become an expert in cutting-edge sustainable business, using my
+                  understanding of political economy to engage with decision-makers and private sector leaders, driving large-scale change that aligns
+                  economic growth with environmental and social integrity.
                 </p>
               </div>
             </Card>
@@ -167,19 +168,20 @@ export default function Home() {
               </div>
               <div className="mb-6">
                 <h3 className="text-2xl font-bold text-white mb-3">Programme Officer - Rural Livelihoods</h3>
-                <p className="text-orange-400 font-medium mb-3">SEED Madagascar · Sep 2024 - Present</p>
+                <p className="text-orange-400 font-medium mb-3">SEED Madagascar · Sep 2024 - Sep 2025</p>
                 <p className="text-gray-300 leading-relaxed mb-4">
-                  Supporting small-scale fishing communities in southeast Madagascar through the Oratsimba project. 
-                  By establishing Locally Managed Marine Areas (LMMAs), I help communities manage their marine environment, 
-                  promoting both prosperity and environmental sustainability. Work involves community engagement, 
-                  conservation planning, and sustainable livelihood development.
+                  At SEED Madagascar, I supported fishing communities in southeast Madagascar through the Oratsimba project, helping to
+                  establish Locally Managed Marine Areas (LMMAs) that promote sustainable livelihoods and environmental conservation. I
+                  conducted ecological and social research, led the transfer of data analysis to R (programming language), and co-designed a
+                  three-year project proposal that secured donor funding and launched new community-led conservation initiatives.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mb-6">
-                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Marine Conservation</Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Community Development</Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Sustainable Livelihoods</Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Cross-Cultural Communication</Badge>
+                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Project Design</Badge>
+                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Sustainable Resource Management</Badge>
+                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Research Skills</Badge>
+                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Statistical Data Analysis</Badge>
+                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Donor Engagement</Badge>
               </div>
             </Card>
 
@@ -189,15 +191,16 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-white mb-3">Intern - Emergency Response Support and Gender Division</h3>
                 <p className="text-orange-400 font-medium mb-3">UNRWA · May 2024 - Sep 2024</p>
                 <p className="text-gray-300 leading-relaxed mb-4">
-                  Supported Gaza emergency response operations and contributed to a major UNRWA report on gender-based violence. 
-                  Participated in GBV workshop planning sessions and provided critical research and editorial support during a period of humanitarian crisis.
+                  I conducted research for a major report on gender-based violence in refugee camps across UNRWA's five fields of operation, 
+                  contributing to evidence-based policy and programme recommendations. I also streamlined the rapid staff recruitment process 
+                  for the Gaza emergency response and analysed internal legal documents on organisational neutrality.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mb-6">
-                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Emergency Response</Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Gender-Based Violence</Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Research</Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Humanitarian Aid</Badge>
+                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Data Structures</Badge>
+                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Qualitative Research</Badge>
+                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Literature Reviews</Badge>
+                <Badge variant="secondary" className="bg-gray-700 text-gray-300">Legal Document Analysis</Badge>
               </div>
             </Card>
 
@@ -209,15 +212,17 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-white mb-3">Geography Teacher</h3>
                   <p className="text-orange-400 font-medium mb-3">Abingdon School · Oct 2023 - May 2024</p>
                   <p className="text-gray-300 leading-relaxed mb-4">
-                    Taught Geography at an independent school in Oxfordshire, including a two-term course on the Anthropocene. 
-                    Led the school Geography Club conducting an investigation into the school's climate impact. Received extensive 
-                    training on novel teaching methods and participated in curriculum development meetings.
+                    As a Geography Teacher at Abingdon School, I taught six classes of students aged 11–15. I received one-to-one training 
+                    in contemporary pedagogy, led student research on the impact of Westgate Oxford, guided the Geography Club's climate 
+                    investigations, and contributed to school life as a Year 9 tutor and sports coach.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <Badge variant="secondary" className="bg-gray-700 text-gray-300">Teaching</Badge>
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Climate Education</Badge>
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Curriculum Development</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Pedagogy</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Education Policy</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Leadership</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Presentation Skills</Badge>
                 </div>
               </Card>
 
@@ -227,15 +232,15 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-white mb-3">Asylum-Seeker Caseworker</h3>
                   <p className="text-orange-400 font-medium mb-3">Action Foundation UK · Oct 2021 - Jun 2022</p>
                   <p className="text-gray-300 leading-relaxed mb-4">
-                    Worked at InterAction drop-in center for migrants, providing an accessible and supportive environment. 
-                    Trained as a caseworker to help asylum-seekers access legal, health, and education services, minimizing 
-                    feelings of isolation and connecting them to the local community.
+                    I worked at the drop-in for migrants called InterAction that provides an accessible, supportive, and friendly environment 
+                    for migrants in the hope of connecting them to the local community and minimizing feelings of isolation or disorientation. 
+                    I was trained as a caseworker, which involves helping asylum-seekers access legal, health and education services.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Cross-Cultural Communication Skills</Badge>
                   <Badge variant="secondary" className="bg-gray-700 text-gray-300">Casework</Badge>
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Vulnerable Populations</Badge>
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Community Integration</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Safeguarding</Badge>
                 </div>
               </Card>
 
@@ -245,15 +250,16 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-white mb-3">Volunteer and Media Coordinator</h3>
                   <p className="text-orange-400 font-medium mb-3">Tearfund · Jan 2019 - Apr 2019</p>
                   <p className="text-gray-300 leading-relaxed mb-4">
-                    Spent three months volunteering in Tanzania, teaching geography and English in primary and secondary schools. 
-                    Co-led an initiative to increase agroforestry in the region. Observed HIV support groups and community 
-                    mobilization meetings. Contributed to Tearfund social media and blog content.
+                    Worked in Tanzania as Media Coordinator with Tearfund, teaching Geography in local schools and co-leading agroforestry 
+                    and environmental awareness initiatives. Reported on community development projects for Tearfund's blog and magazine, and 
+                    documented HIV support groups and community mobilisation meetings highlighting sustainable local partnerships.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">International Development</Badge>
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Agroforestry</Badge>
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Content Creation</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Media Communications</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Environmental Advocacy</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Cross-cultural Teams</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Public Speaking</Badge>
                 </div>
               </Card>
 
@@ -275,9 +281,13 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Development Studies</Badge>
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Geography</Badge>
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Research</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Quantitative Research</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Qualitative Research</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Economic Research</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">R (Programming Language)</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Geographic Information Systems (GIS)</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Social Research</Badge>
+                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">Discourse Analysis</Badge>
                 </div>
               </Card>
             </div>
