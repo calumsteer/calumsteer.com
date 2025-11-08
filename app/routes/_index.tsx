@@ -86,7 +86,7 @@ export default function Home() {
               <div className="relative mb-6">
                 <div className="w-48 h-48 rounded-full p-0.5 bg-white">
                   <img 
-                  src="/calum-profile.jpg" 
+                  src="/LinkedInprofilepicCS.jpeg" 
                   alt="Calum Steer" 
                   className="w-full h-full rounded-full object-cover"
                   />
