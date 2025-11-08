@@ -43,7 +43,7 @@ export default function Home() {
   const handleDownloadCV = () => {
     // Create a link to download the CV
     const link = document.createElement('a');
-    link.href = '/cv.pdf';
+    link.href = '/CS-CV.pdf';
     link.download = 'Calum_Steer_CV.pdf';
     document.body.appendChild(link);
     link.click();
@@ -60,7 +60,7 @@ export default function Home() {
       }`}>
         <div className="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center">
+            <div className="w-10 h-10 rounded-full bg-cyan-500 flex items-center justify-center">
               <span className="text-white font-bold text-lg">CS</span>
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function Home() {
             onClick={handleDownloadCV}
             variant="outline" 
             size="sm"
-            className="border-gray-600 text-gray-300 hover:border-orange-500 hover:text-orange-500"
+            className="border-gray-600 text-gray-300 hover:border-cyan-500 hover:text-cyan-400"
           >
             <Download className="w-4 h-4 mr-2" />
             Download CV
@@ -95,7 +95,7 @@ export default function Home() {
               <div className="flex justify-center space-x-6 md:mt-auto">
                 <a 
                   href="https://www.linkedin.com/in/calum-steer-8460b0149" 
-                  className="flex items-center space-x-2 text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                  className="flex items-center space-x-2 text-gray-400 hover:text-cyan-400 transition-colors duration-200"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -107,7 +107,7 @@ export default function Home() {
             
             {/* Text Content */}
             <div className="md:col-span-8 text-center md:text-left flex flex-col">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-tight bg-gradient-to-r from-white via-orange-400 to-orange-600 bg-clip-text text-transparent">
+              <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-tight bg-gradient-to-r from-white via-cyan-400 to-cyan-500 bg-clip-text text-transparent">
                 Hi, I'm Calum
               </h1>
                 <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-8 md:mb-0">
@@ -115,7 +115,7 @@ export default function Home() {
                   MPhil in Development Studies from the University of Cambridge (top quarter of cohort).
                   First-class Geography degree from Durham University. Skilled in research, AI, and automation (n8n) for sustainability-focused innovation.&nbsp;
                     Passionate about{" "}
-                    <span className="bg-orange-400 rounded px-1 font-bold" style={{ lineHeight: "1.5", paddingTop: "0.1em", paddingBottom: "0.1em" }}>
+                    <span className="bg-cyan-400 rounded px-1 font-bold" style={{ lineHeight: "1.5", paddingTop: "0.1em", paddingBottom: "0.1em" }}>
                       sustainable development
                     </span>
                     {" "}and ocean protection.
@@ -161,14 +161,14 @@ export default function Home() {
             {/* SEED Madagascar - Featured */}
             <Card className="bg-gray-800 border-gray-700 p-8 relative">
               <div className="absolute -top-3 left-8">
-                <Badge className="bg-orange-500 text-white px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
+                <Badge className="bg-cyan-500 text-white px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
                   <Star className="w-3 h-3 mr-1" />
                   Current Role
                 </Badge>
               </div>
               <div className="mb-6">
                 <h3 className="text-2xl font-bold text-white mb-3">Programme Officer - Rural Livelihoods</h3>
-                <p className="text-orange-400 font-medium mb-3">SEED Madagascar · Sep 2024 - Sep 2025</p>
+                <p className="text-cyan-400 font-medium mb-3">SEED Madagascar · Sep 2024 - Sep 2025</p>
                 <p className="text-gray-300 leading-relaxed mb-4">
                   At SEED Madagascar, I supported fishing communities in southeast Madagascar through the Oratsimba project, helping to
                   establish Locally Managed Marine Areas (LMMAs) that promote sustainable livelihoods and environmental conservation. I
@@ -189,7 +189,7 @@ export default function Home() {
             <Card className="bg-gray-800 border-gray-700 p-8">
               <div className="mb-6">
                 <h3 className="text-2xl font-bold text-white mb-3">Intern - Emergency Response Support and Gender Division</h3>
-                <p className="text-orange-400 font-medium mb-3">UNRWA · May 2024 - Sep 2024</p>
+                <p className="text-cyan-400 font-medium mb-3">UNRWA · May 2024 - Sep 2024</p>
                 <p className="text-gray-300 leading-relaxed mb-4">
                   I conducted research for a major report on gender-based violence in refugee camps across UNRWA's five fields of operation, 
                   contributing to evidence-based policy and programme recommendations. I also streamlined the rapid staff recruitment process 
@@ -210,7 +210,7 @@ export default function Home() {
               <Card className="bg-gray-800 border-gray-700 p-6 h-full">
                 <div className="mb-4">
                   <h3 className="text-xl font-bold text-white mb-3">Geography Teacher</h3>
-                  <p className="text-orange-400 font-medium mb-3">Abingdon School · Oct 2023 - May 2024</p>
+                  <p className="text-cyan-400 font-medium mb-3">Abingdon School · Oct 2023 - May 2024</p>
                   <p className="text-gray-300 leading-relaxed mb-4">
                     As a Geography Teacher at Abingdon School, I taught six classes of students aged 11–15. I received one-to-one training 
                     in contemporary pedagogy, led student research on the impact of Westgate Oxford, guided the Geography Club's climate 
@@ -230,7 +230,7 @@ export default function Home() {
               <Card className="bg-gray-800 border-gray-700 p-6 h-full">
                 <div className="mb-4">
                   <h3 className="text-xl font-bold text-white mb-3">Asylum-Seeker Caseworker</h3>
-                  <p className="text-orange-400 font-medium mb-3">Action Foundation UK · Oct 2021 - Jun 2022</p>
+                  <p className="text-cyan-400 font-medium mb-3">Action Foundation UK · Oct 2021 - Jun 2022</p>
                   <p className="text-gray-300 leading-relaxed mb-4">
                     I worked at the drop-in for migrants called InterAction that provides an accessible, supportive, and friendly environment 
                     for migrants in the hope of connecting them to the local community and minimizing feelings of isolation or disorientation. 
@@ -248,7 +248,7 @@ export default function Home() {
               <Card className="bg-gray-800 border-gray-700 p-6 h-full">
                 <div className="mb-4">
                   <h3 className="text-xl font-bold text-white mb-3">Volunteer and Media Coordinator</h3>
-                  <p className="text-orange-400 font-medium mb-3">Tearfund · Jan 2019 - Apr 2019</p>
+                  <p className="text-cyan-400 font-medium mb-3">Tearfund · Jan 2019 - Apr 2019</p>
                   <p className="text-gray-300 leading-relaxed mb-4">
                     Worked in Tanzania as Media Coordinator with Tearfund, teaching Geography in local schools and co-leading agroforestry 
                     and environmental awareness initiatives. Reported on community development projects for Tearfund's blog and magazine, and 
@@ -270,12 +270,12 @@ export default function Home() {
                   <div className="space-y-3 text-gray-300 leading-relaxed">
                     <div>
                       <p className="font-semibold text-white">MPhil Development Studies</p>
-                      <p className="text-sm text-orange-400">University of Cambridge · 2022-2023</p>
+                      <p className="text-sm text-cyan-400">University of Cambridge · 2022-2023</p>
                       <p className="text-sm">Grade: 72</p>
                     </div>
                     <div>
                       <p className="font-semibold text-white">BA Geography</p>
-                      <p className="text-sm text-orange-400">Durham University · 2019-2022</p>
+                      <p className="text-sm text-cyan-400">Durham University · 2019-2022</p>
                       <p className="text-sm">First-class Honours (75)</p>
                     </div>
                   </div>
@@ -301,7 +301,7 @@ export default function Home() {
             <div className="flex justify-center space-x-6 mb-8">
               <a 
                 href="https://www.linkedin.com/in/calum-steer-8460b0149" 
-                className="flex items-center space-x-2 text-gray-300 hover:text-orange-500 transition-colors duration-200"
+                className="flex items-center space-x-2 text-gray-300 hover:text-cyan-400 transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
               >
